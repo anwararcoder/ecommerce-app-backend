@@ -1,4 +1,4 @@
-const nodemailer = require('nodemailer');
+const nodemailer = require("nodemailer");
 
 // Path options as argument like : {email address, subject, email content and others}
 const sendEmail = async (options) => {
@@ -20,7 +20,7 @@ const sendEmail = async (options) => {
 
   // 2) Define the email options
   const mailOptions = {
-    from: 'E-shop App <boghdady107@gmail.com>',
+    from: "Shopcity",
     to: options.email,
     subject: options.subject,
     text: options.message,
